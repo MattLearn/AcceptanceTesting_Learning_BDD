@@ -16,4 +16,7 @@ Contains the code that actually causes the automated process to happen split by 
 ## Webdrivers
 contains the location of my local instance of the gecko(Firefox) driver. I initially used the webdrivermanager but kept it just in case.
 
+## executor.py
+I wrote this using pycharm community edition, which does not have support for BDD so before figuring out how to manually create a run script that works, I used this instead.
+
 and naturally the feature file in the acceptance folder was written by me.
