@@ -1,20 +1,19 @@
-# Set up
+# What is this?
+This is the project I used to learn some of the basics of using behave in conjunction with selenium to automate testing a REST API
 
-We'll need a few things to install for this section:
+# Disclaimer
+The API was not written by me, it was only used for the purpose of learning how to navigate the above mentioned tools. The files written by me are as follows
 
-- https://sites.google.com/a/chromium.org/chromedriver/downloads
-- behave (http://pythonhosted.org/behave/)
-- selenium (http://selenium-python.readthedocs.io/installation.html)
+## Locators
+This folder contains the code to call/identify specific pieces of the web pages whether by class name, ID or tag
 
+## Page model 
+Contains classes which make it easier to call for certain data from each of their associated web pages (found in template folder)
 
-## Running the tests
+## Steps
+Contains the code that actually causes the automated process to happen split by steps and the type of action being taken
 
-To run the tests, you'll need to do this in a terminal (but remember to have the Flask app running!):
+## Webdrivers
+contains the location of my local instance of the gecko(Firefox) driver. I initially used the webdrivermanager but kept it just in case.
 
-```bash
-source venv/bin/activate
-cd section6/video_code/
-python -m behave tests/acceptance
-```
-
-If you want to run the tests in PyCharm, you'll need to create appropriate configurations. We cover this in the course!
+and naturally the feature file in the acceptance folder was written by me.
